@@ -9,12 +9,8 @@ Email: **elferno@inbox.ru**
 <br />
 Phone: **+7 922 021 08 05**
 
-<br />
-
 ## About me
 I've been programming since I was 18. Have a wide expirience in PHP, JS, HTML, CSS, MySQL. Been working a lot so usually had no time for education. Today my main goal is to catch up modern technology stack and approach to programming. Looking forward for: React + Redux, SCSS, GIT, patterns, REST API, maybe some server side stuff too.
-
-<br />
 
 ## Stack
 * PHP
@@ -22,8 +18,6 @@ I've been programming since I was 18. Have a wide expirience in PHP, JS, HTML, C
 * HTML
 * CSS
 * MySQL
-
-<br />
 
 ## Code samples
 
@@ -38,17 +32,11 @@ const deepCopy = obj => {
 }
 ```
 
-<br />
-
 ## Work expirience
 15 years of non-commercial programming. Selft educated. unfortunately none of my projects are available atm since they all were deployed on complicated clusters and once they turned down (_when our investor got broke_) all my work gone.
 
-<br />
-
 ## Education
 secondary education
-
-<br />
 
 ## English level
 Feel pretty confident. Never pass any test or something so have no idea about official level or whatever... Selft educated.
