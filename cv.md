@@ -8,6 +8,8 @@ telegram: **@Elijah_I**
 Email: **elferno@inbox.ru**
 <br />
 Phone: **+7 922 021 08 05**
+<br />
+Discord: **Elijah-I (@Elijah-I)**
 
 ## About me
 I've been programming since I was 18. Have a wide expirience in PHP, JS, HTML, CSS, MySQL. Been working a lot so usually had no time for education. Today my main goal is to catch up modern technology stack and approach to programming. Looking forward for: React + Redux, SCSS, GIT, patterns, REST API, maybe some server side stuff too.
@@ -38,6 +40,9 @@ Function.prototype.myBind = function (context) {
   return (...args) => context.fn(...args)
 }
 ```
+
+## Projects
+[github pages CV](https://elijah-i.github.io/rsschool-cv/cv)
 
 ## Work expirience
 15 years of non-commercial programming. Selft educated. unfortunately none of my projects are available atm since they all were deployed on complicated clusters and once they turned down (_when our investor got broke_) all my work gone.
