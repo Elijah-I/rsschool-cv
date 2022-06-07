@@ -32,6 +32,13 @@ const deepCopy = obj => {
 }
 ```
 
+```javascript
+Function.prototype.myBind = function (context) {
+  context.fn = this
+  return (...args) => context.fn(...args)
+}
+```
+
 ## Work expirience
 15 years of non-commercial programming. Selft educated. unfortunately none of my projects are available atm since they all were deployed on complicated clusters and once they turned down (_when our investor got broke_) all my work gone.
 
