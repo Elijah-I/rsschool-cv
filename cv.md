@@ -1,6 +1,6 @@
 # Ivanik Ilia
 
-<img src="avatar.jpg" alt="avatar" width="210" style="margin-bottom: 20px;"/>
+<img src="img/avatar.jpg" alt="avatar" width="210" style="margin-bottom: 20px;"/>
 
 ## Contacts
 telegram: **@Elijah_I**
