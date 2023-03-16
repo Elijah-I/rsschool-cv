@@ -452,8 +452,8 @@ section {
 
 /* skills */
 
-/* code */
-.code-container {
+/* courses */
+.parallax {
   background-image: url("../img/keyboard.jpg");
   width: 100%;
   background-attachment: fixed;
@@ -466,7 +466,7 @@ section {
   overflow: hidden;
 }
 
-.code-container::before {
+.parallax::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -478,36 +478,6 @@ section {
   opacity: 0.75;
 }
 
-pre {
-  color: var(--black);
-  background-color: var(--white-70);
-  padding: var(--m) 0;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 5px;
-}
-
-pre b {
-  color: #cf222e;
-  font-weight: 400;
-}
-
-pre i {
-  color: #8250df;
-  font-style: normal;
-}
-
-pre u {
-  color: #953800;
-  text-decoration: none;
-}
-
-pre span {
-  color: #0550ae;
-}
-
-/* code */
-
-/* courses */
 .course__container {
   display: flex;
   margin-top: var(--mm);
@@ -779,7 +749,7 @@ footer .container {
   .nav-links__item i {
     position: relative;
     transform: none !important;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transform-origin: center center;
     color: var(--purple);
   }

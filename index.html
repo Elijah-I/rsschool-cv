@@ -9,8 +9,8 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
     <title>Elijah Ivanik CV</title>
-    <link rel="stylesheet" href="css/null.css?2" />
-    <link rel="stylesheet" href="css/style.css?2" />
+    <link rel="stylesheet" href="css/null.css?3" />
+    <link rel="stylesheet" href="css/style.css?3" />
   </head>
 
   <body>
@@ -36,9 +36,6 @@
               <a class="nav-links__item" href="#skills"
                 ><b>skills</b><i>skills</i></a
               >
-            </li>
-            <li>
-              <a class="nav-links__item" href="#code"><b>code</b><i>code</i></a>
             </li>
             <li>
               <a class="nav-links__item" href="#courses"
@@ -132,28 +129,8 @@
         </section>
       </div>
 
-      <section class="code-container">
+      <section class="parallax">
         <div class="container">
-          <h2 id="code" class="section__label section__label--purple">code</h2>
-          <pre class="section__content section__content--purple">
-<b>const</b> <i>deepCopy</i> = obj => {
-  <b>const</b> copy = <u>Object</u>.<i>assign</i>({}, obj)
-  <u>Object</u>.<i>keys</i>(copy).<i>forEach</i>(key => {
-    <b>if</b> (<span>null !==</span> copy[key] <span>&&</span> <b>typeof</b> copy[key] <span>===</span> "object")
-      copy[key] = <i>deepCopy</i>(copy[key])
-  })
-  <b>return</b> copy
-}</pre>
-          <pre class="section__content section__content--purple">
-<u>Function</u>.<span>prototype</span>.<i>myBind</i> = <b>function</b> (context) {
-  context.<span>fn</span> = this
-  <b>return</b> (...args) => context.<i>fn</i>(...args)
-}</pre>
-        </div>
-      </section>
-
-      <div class="container">
-        <section>
           <h2 id="courses" class="section__label section__label--red">
             courses
           </h2>
@@ -248,8 +225,10 @@
               >
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
 
+      <div class="container">
         <section>
           <h2 id="projects" class="section__label section__label--blue">
             projects
@@ -398,6 +377,6 @@
         </a>
       </div>
     </footer>
-    <script src="js/burger.js?2"></script>
+    <script src="js/burger.js?3"></script>
   </body>
 </html>
