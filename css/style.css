@@ -864,7 +864,8 @@ footer .container {
     justify-content: flex-start;
   }
   .projects {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 }
 /* 650 */
