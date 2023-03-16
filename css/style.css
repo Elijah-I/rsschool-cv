@@ -789,6 +789,7 @@ footer .container {
   .burger {
     width: 40px;
     position: absolute;
+    z-index: 2;
     right: var(--m);
     top: 55px;
     display: flex;
