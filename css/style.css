@@ -463,6 +463,7 @@ section {
   position: relative;
   padding-top: var(--mm);
   padding-bottom: var(--mmm);
+  overflow: hidden;
 }
 
 .code-container::before {
@@ -788,6 +789,7 @@ footer .container {
   .burger {
     width: 40px;
     position: absolute;
+    z-index: 2;
     right: var(--m);
     top: 55px;
     display: flex;
@@ -834,7 +836,7 @@ footer .container {
   }
   .person {
     padding-left: calc(30px + var(--mmm));
-    padding-bottom: 3px;
+    padding-bottom: var(--m);
     position: relative;
     top: -3px;
   }
