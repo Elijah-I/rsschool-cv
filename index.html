@@ -15,7 +15,8 @@
         <div class="avatar-container">
           <div class="avatar"><img src="img/avatar.png" alt="me" /></div>
         </div>
-        <nav>
+        <div class="burger" onClick="Burger.toggleMenu();"><div></div></div>
+        <nav class="nav" onClick="Burger.toggleMenu();">
           <ul class="nav-links">
             <li>
               <a class="nav-links__item" href="#contacts"
@@ -86,8 +87,8 @@
             summary
           </h2>
           <p class="section__content section__content--yellow">
-            I've been programming since I was 18. Have a wide expirience in PHP,
-            JS, HTML, CSS, MySQL. Been working a lot so usually had no time for
+            I've been programming since I was 18. Have a wide expirience in JS,
+            HTML, CSS, PHP, MySQL. Been working a lot so usually had no time for
             education. Today my main goal is to catch up modern technology stack
             and approach to programming. Looking forward for: React + Redux,
             SCSS, GIT, patterns, REST API, maybe some server side stuff too.
@@ -393,5 +394,6 @@
         </a>
       </div>
     </footer>
+    <script src="js/burger.js"></script>
   </body>
 </html>
