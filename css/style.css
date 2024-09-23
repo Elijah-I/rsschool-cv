@@ -282,6 +282,10 @@ section {
   z-index: 1;
 }
 
+.section__label--small {
+  text-transform: lowercase;
+}
+
 .section__label--yellow {
   color: var(--yellow);
 }
@@ -332,6 +336,25 @@ section {
 
 .section__content--red::before {
   background: var(--red-30);
+}
+
+.section__time--offset {
+  margin-left: var(--m);
+}
+
+.section__time--yellow {
+  color: var(--yellow);
+  text-shadow: 0 0 5px var(--yellow-30);
+}
+
+.section__time--blue {
+  color: var(--blue);
+  text-shadow: 0 0 5px var(--blue-30);
+}
+
+.section__time--purple {
+  color: var(--purple);
+  text-shadow: 0 0 5px var(--purple-30);
 }
 
 /* main */
@@ -553,7 +576,7 @@ section {
 .project__label {
   position: absolute;
   right: var(--mm);
-  top: -1px;
+  top: 10px;
   line-height: 0;
   font-size: 1rem;
   z-index: 2;
