@@ -282,6 +282,10 @@ section {
   z-index: 1;
 }
 
+.section__label--small {
+  text-transform: lowercase;
+}
+
 .section__label--yellow {
   color: var(--yellow);
 }
@@ -334,6 +338,29 @@ section {
   background: var(--red-30);
 }
 
+.section__time--offset {
+  margin-left: var(--m);
+}
+
+.section__time--yellow {
+  color: var(--yellow);
+  text-shadow: 0 0 5px var(--yellow-30);
+}
+
+.section__time--blue {
+  color: var(--blue);
+  text-shadow: 0 0 5px var(--blue-30);
+}
+
+.section__time--purple {
+  color: var(--purple);
+  text-shadow: 0 0 5px var(--purple-30);
+}
+
+.section__time--red {
+  color: var(--red);
+  text-shadow: 0 0 5px var(--red-30);
+}
 /* main */
 
 /* skills */
@@ -346,6 +373,7 @@ section {
 .skills li b {
   flex: 1 0 95px;
   font-weight: 400;
+  text-align: left;
 }
 
 .skills li i {
@@ -449,8 +477,47 @@ section {
   font-weight: 400;
   display: inline-block;
 }
-
 /* skills */
+
+/* experience */
+.experience__pointer {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 0 3px 3px 12px;
+}
+
+.experience__pointer--rect {
+  border-radius: 0;
+  margin-left: 0;
+}
+
+.experience__pointer--blue {
+  background: var(--blue);
+  box-shadow: 0 0 5px var(--blue-30);
+}
+
+.experience__pointer--yellow {
+  background: var(--yellow);
+  box-shadow: 0 0 5px var(--yellow-30);
+}
+
+.experience__pointer--purple {
+  background: var(--purple);
+  box-shadow: 0 0 5px var(--purple-30);
+}
+
+.experience__pointer--red {
+  background: var(--red);
+  box-shadow: 0 0 5px var(--red-30);
+}
+
+.experience__link {
+  color: var(--blue);
+  text-decoration: underline;
+}
+/* experience */
 
 /* courses */
 .parallax {
@@ -553,7 +620,7 @@ section {
 .project__label {
   position: absolute;
   right: var(--mm);
-  top: -1px;
+  top: 10px;
   line-height: 0;
   font-size: 1rem;
   z-index: 2;
@@ -700,6 +767,7 @@ footer .container {
 }
 
 .github__icon {
+  max-width: 60px;
   background-color: var(--white-30);
   border-radius: 50%;
   box-sizing: border-box;
