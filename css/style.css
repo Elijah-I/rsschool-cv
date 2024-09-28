@@ -337,26 +337,26 @@ section {
   background: var(--red-30);
 }
 
-.section__time--offset {
+.section__highlight--offset {
   margin-left: var(--m);
 }
 
-.section__time--yellow {
+.section__highlight--yellow {
   color: var(--yellow);
   text-shadow: 0 0 5px var(--yellow-30);
 }
 
-.section__time--blue {
+.section__highlight--blue {
   color: var(--blue);
   text-shadow: 0 0 5px var(--blue-30);
 }
 
-.section__time--purple {
+.section__highlight--purple {
   color: var(--purple);
   text-shadow: 0 0 5px var(--purple-30);
 }
 
-.section__time--red {
+.section__highlight--red {
   color: var(--red);
   text-shadow: 0 0 5px var(--red-30);
 }
@@ -527,6 +527,10 @@ section {
 .experience__link {
   color: var(--blue);
   text-decoration: underline;
+}
+
+.experience__link:hover {
+  text-decoration: none;
 }
 /* experience */
 
