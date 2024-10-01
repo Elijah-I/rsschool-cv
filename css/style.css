@@ -243,6 +243,10 @@ header {
 }
 
 .contacts__item:nth-child(1) {
+  flex-basis: 50%;
+}
+
+.contacts__item:nth-child(2) {
   flex-basis: 70%;
 }
 
