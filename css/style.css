@@ -73,21 +73,9 @@ body {
   --gray: rgb(152, 176, 174);
   --gray-30: rgba(152, 176, 174, 0.3);
 
-  --blue: rgb(72, 162, 197);
-  --blue-30: rgba(72, 162, 197, 0.3);
-  --blue-15: rgba(72, 162, 197, 0.15);
-
-  --yellow: rgb(72, 162, 197);
-  --yellow-30: rgba(72, 162, 197, 0.3);
-  --yellow-15: rgba(72, 162, 197, 0.15);
-
-  --purple: rgb(72, 162, 197);
-  --purple-30: rgba(72, 162, 197, 0.3);
-  --purple-15: rgba(72, 162, 197, 0.15);
-
-  --red: rgb(72, 162, 197);
-  --red-30: rgba(72, 162, 197, 0.3);
-  --red-15: rgba(72, 162, 197, 0.15);
+  --blue: rgb(72, 133, 157);
+  --blue-30: rgba(72, 133, 157, 0.3);
+  --blue-15: rgba(72, 133, 157, 0.15);
 
   font: 400 1rem Roboto, sans-serif;
 
@@ -183,7 +171,7 @@ header {
 .nav-links__item:hover i {
   transform: scale(1.35, 1.35);
   transform-origin: center center;
-  color: var(--purple);
+  color: var(--blue);
   transition: all 0.1s ease;
 }
 
@@ -280,20 +268,20 @@ section {
   text-transform: lowercase;
 }
 
-.section__label--yellow {
-  color: var(--yellow);
+.section__label--blue {
+  color: var(--blue);
 }
 
 .section__label--blue {
   color: var(--blue);
 }
 
-.section__label--purple {
-  color: var(--purple);
+.section__label--blue {
+  color: var(--blue);
 }
 
-.section__label--red {
-  color: var(--red);
+.section__label--blue {
+  color: var(--blue);
 }
 
 .section__content {
@@ -316,40 +304,40 @@ section {
   top: 0;
 }
 
-.section__content--yellow::before {
-  background: var(--yellow-30);
+.section__content--blue::before {
+  background: var(--blue-30);
 }
 
 .section__content--blue::before {
   background: var(--blue-30);
 }
 
-.section__content--purple::before {
-  background: var(--purple-30);
+.section__content--blue::before {
+  background: var(--blue-30);
 }
 
-.section__content--red::before {
-  background: var(--red-30);
+.section__content--blue::before {
+  background: var(--blue-30);
 }
 
 .section__highlight--offset {
   margin-left: var(--m);
 }
 
-.section__highlight--yellow {
-  color: var(--yellow);
+.section__highlight--blue {
+  color: var(--blue);
 }
 
 .section__highlight--blue {
   color: var(--blue);
 }
 
-.section__highlight--purple {
-  color: var(--purple);
+.section__highlight--blue {
+  color: var(--blue);
 }
 
-.section__highlight--red {
-  color: var(--red);
+.section__highlight--blue {
+  color: var(--blue);
 }
 /* main */
 
@@ -367,7 +355,7 @@ section {
 }
 
 .skills li i {
-  height: 14px;
+  height: 10px;
   flex: 1 1 100%;
   background: var(--blue-30);
   position: relative;
@@ -471,16 +459,16 @@ section {
   background: var(--blue);
 }
 
-.experience__pointer--yellow {
-  background: var(--yellow);
+.experience__pointer--blue {
+  background: var(--blue);
 }
 
-.experience__pointer--purple {
-  background: var(--purple);
+.experience__pointer--blue {
+  background: var(--blue);
 }
 
-.experience__pointer--red {
-  background: var(--red);
+.experience__pointer--blue {
+  background: var(--blue);
 }
 
 .experience__link {
@@ -574,7 +562,7 @@ section {
 }
 
 .course__container li:hover .course__link {
-  color: var(--yellow);
+  color: var(--blue);
 }
 /* courses */
 
@@ -597,7 +585,7 @@ section {
   line-height: 0;
   font-size: 1rem;
   z-index: 2;
-  color: var(--yellow);
+  color: var(--blue);
 }
 
 .project__label::after {
@@ -672,7 +660,7 @@ section {
   display: flex;
   gap: var(--m);
   align-items: center;
-  color: var(--yellow);
+  color: var(--blue);
 }
 
 .project__info li::before {
@@ -680,7 +668,7 @@ section {
   display: block;
   width: 5px;
   height: 5px;
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border-radius: 50%;
 }
 
@@ -715,11 +703,11 @@ footer::before {
   }
 
   50% {
-    border-top-color: var(--yellow);
+    border-top-color: var(--blue);
   }
 
   100% {
-    border-top-color: var(--purple);
+    border-top-color: var(--blue);
   }
 }
 
@@ -770,7 +758,7 @@ footer .container {
 }
 
 .github__link:hover {
-  color: var(--purple);
+  color: var(--blue);
 }
 
 .rs__icon {
@@ -829,7 +817,7 @@ footer .container {
     transform: none !important;
     font-size: 1.5rem;
     transform-origin: center center;
-    color: var(--purple);
+    color: var(--blue);
   }
   .nav-links__item b {
     display: none;

@@ -425,7 +425,7 @@ section {
 }
 
 .skills li i {
-  height: 14px;
+  height: 10px;
   flex: 1 1 100%;
   background: var(--gradient-horisontal);
   position: relative;
