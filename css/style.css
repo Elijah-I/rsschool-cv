@@ -200,13 +200,11 @@ header {
   align-items: end;
   font: 500 2.5rem Roboto, sans-serif;
   line-height: 80px;
-  letter-spacing: 1px;
   border-bottom: 1px dotted var(--blue-30);
 }
 
 .person b {
   font: 500 1.2rem Roboto, sans-serif;
-  letter-spacing: 1px;
   line-height: 60px;
   color: var(--blue);
 }
